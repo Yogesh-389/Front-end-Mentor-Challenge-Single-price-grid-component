@@ -72,17 +72,11 @@ p{
 .div5-h3{
   color: white;
   width: 50%;
-  bottom: 275px;
+   top: 400px;
   position: absolute;
   margin-left: 40px;
 }
-/*.div5-span{
-  color: white;
-  position: absolute;
-    width: 90%;
-    margin-left: 40px;
-    top: 465px;
-}*/
+
 .div5-p1{
   position: absolute;
     width: 90%;
@@ -123,7 +117,7 @@ p{
   .div6-h3{
     color: white;
     width: 50%;
-    bottom: 275px;
+     top: 400px;
     position: absolute;
     margin-left: 40px;/*or we can use left:ypx; property also*/
   }

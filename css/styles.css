@@ -1,40 +1,9 @@
-/*<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-<style>
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
-</style>
-
-
-
-Join our community
-
-30-day, hassle-free money back guarantee
-
-Gain access to our full library of tutorials along with expert code reviews.
-Perfect for any developers who are serious about honing their skills.
-
-Monthly Subscription
-
-&dollar;29 per month
-
-Full access for less than &dollar;1 a day
-
-Sign Up
-
-Why Us
-
-Tutorials by industry experts
-Peer &amp; expert code review
-Coding exercises
-Access to our GitHub repos
-Community forum
-Flashcard decks
-New videos every week/*
 /******************************************************************************/
 /*******************TAG SELECTORS*************************/
 body{
   font-family: 'Karla', sans-serif;
   font-size: 16px;
+  font-weight: 400;
 }
 p{
 
@@ -100,27 +69,73 @@ p{
   display: inline-block;
   background-color: hsl(179, 62%, 43%);
 }
+.div5-h3{
+  color: white;
+  width: 50%;
+  bottom: 275px;
+  position: absolute;
+  margin-left: 40px;
+}
+/*.div5-span{
+  color: white;
+  position: absolute;
+    width: 90%;
+    margin-left: 40px;
+    top: 465px;
+}*/
+.div5-p1{
+  position: absolute;
+    width: 90%;
+    margin-left: 40px;
+    top: 435px;
+}
+.div5-p2{
+  color: white;
+  position: absolute;
+    width: 90%;
+    margin-left: 40px;
+    top: 480px;
+}
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  background: hsl(71, 73%, 54%);
+  padding: 15px 90px 15px 90px;
+  border: solid #f5f5f5 0px;
+  text-decoration: none;
+  position: absolute;
+  top: 545px;
+  margin-left: 40px;
+}
 
 /*****DIV-4-->(DIV-6)****/
 .div-6{
   height: 260px;
   width: 315px;
   display: inline-block;
-    background-color: hsl(179, 62%, 43%, 0.5);
+    background-color: hsl(179, 62%, 43%, 0.8);
   }
   .div6-h3{
     color: white;
     width: 50%;
-    bottom: 280px;
+    bottom: 275px;
     position: absolute;
-    margin-left: 20px;/*or we can use left:ypx; property also*/
+    margin-left: 40px;/*or we can use left:ypx; property also*/
   }
   .div6-p{
     color: white;
-    opacity: 0.5;
+    opacity: 0.6;
     position: absolute;
-    width: 15%;
-    top: 450px;
-    margin-left: 20px; /*or we can use left:ypx; property also*/
+    width: 18%;
+    top: 465px;
+    margin-left: 40px; /*or we can use left:ypx; property also*/
     margin-right: 20px;
+    margin-top: 0;
+
   }
+
